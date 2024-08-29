@@ -68,6 +68,11 @@ ul {
 }
 a {
   text-decoration: none;
+  color: var(--clr-primary-5);
+  transition: var(--transition);
+}
+a:hover {
+  color: var(--clr-primary-10);
 }
 /* img {
   width: 100%;
@@ -214,7 +219,7 @@ p {
   padding-left: 2.25rem;
 }
 .hom {
-  color: var(--clr-primary-4);
+  color: var(--clr-primary-1);
 }
 /* 280px */
 .nav-links {
@@ -242,6 +247,7 @@ p {
     height: auto;
     display: flex;
     /* flex-wrap: wrap; */
+    overflow: visible;
   }
   .nav-header {
     padding: 0 0;
@@ -262,7 +268,7 @@ p {
   background: var(--clr-primary-6);
   height: 500px;
   margin: 4rem 0;
-  background-image: url("/images/multicolor.png");
+  background-image: url("/images/secondmulti.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -388,7 +394,7 @@ p {
   justify-content: space-between;
   align-items: center;
   margin: 0.25rem 1rem;
-  background-image: url("/images/multicolor.png");
+  background-image: url("/images/multicolorpic.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
@@ -463,7 +469,7 @@ p {
 }
 /* fifth-section */
 .fifth-section {
-  background-image: url("/images/multicolor.png");
+  background-image: url("/images/secondmulti.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
